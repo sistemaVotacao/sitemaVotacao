@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+.containerVotar{
+	width: 700px;
+	height: 570px;
+}
+.containerBotoesVotacao{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.formCenterVotar{
+	width: 400px;
+	height: 100px;
+	align-items: center;
+}
+img{
+	border-style: groove;
+}
+body{
+	margin-top: 20px;
+}
+#btnBranco{
+	background-color: white;
+	color: black;
+	height: 70px;
+	width: 100%;
+}
+#btnCorrige{
+	background-color: #ff6600;
+	color: black;
+	height: 70px;
+	width: 100%;
+}
+#btnConfirmar{
+	background-color: #2eb82e;
+	color: black;
+	height: 100px;
+	width: 100%;
+}
+.btnNumero{
+	background-color: aqua;
+	border-color: #1a75ff; 
+	color: black;
+	height: 60px;
+	width: 60px;
+}

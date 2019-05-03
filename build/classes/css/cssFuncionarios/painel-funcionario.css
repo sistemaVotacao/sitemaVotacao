@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+body{
+	margin-top: 15px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.conteinerPainelValidação{
+	border-top-style: groove;
+	border-top-color: #d6d6c2;
+	width: 100%;
+	height: 100%;
+}
+.conteinerPainelRelatorio{
+	display: none;
+	border-top-style: groove;
+	border-top-color: #d6d6c2;
+	width: 100%;
+	height: 100%
+}
+.conteinerBotoes {
+	height: 50px;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+}
+.botaoSelecionado{
+	background: white;
+	font-size: large;
+	color: #1a75ff;
+}
+.containerPainelMesario{
+	width: 80%;
+	height: 600px;
+}
+.containerFotoMesario{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.containerInformacoes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+img{
+	height: 120px;
+	border-right-style: groove;
+	border-bottom-style: groove;	
+}
+table, tr, td, th {
+	size: 100px;
+	font-size: x-large;
+}

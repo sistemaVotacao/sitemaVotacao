@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+.tamanhoContainerLogin{
+	with:100%;
+}
+
+.containerBotoes{
+	width: 80%;
+	height: 80%;
+}
+.classeInicial{
+	display: none;
+}
+.tamanhoContainerIndex{
+	width: 400px;
+	height: 450px;
+}
